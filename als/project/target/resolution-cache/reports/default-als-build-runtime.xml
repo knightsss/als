@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="als-build"
+		revision="0.1-SNAPSHOT"
+		extra-sbtVersion="0.13"
+		extra-scalaVersion="2.10"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170428145651"/>
+	<dependencies>
+		<module organisation="com.eed3si9n" name="sbt-assembly">
+			<revision name="0.12.0" status="release" pubdate="20141119163054" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="14">
+				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="1826" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/ivy-0.12.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.12.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="als-build" conf="compile, runtime" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-assembly" type="jar" ext="jar" status="no" details="" size="161597" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/jars/sbt-assembly-0.12.0.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.12.0/jars/sbt-assembly.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.6" status="release" pubdate="20150918173528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-util_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.6.8"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.sbt" name="sbt-site">
+			<revision name="0.7.0" status="release" pubdate="20130801125407" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<metadata-artifact status="no" details="" size="1914" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-site/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-site/scala_2.10/sbt_0.13/0.7.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="als-build" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-site" type="jar" ext="jar" status="no" details="" size="148897" time="0" location="/root/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-site/jars/sbt-site-0.7.0.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-site/scala_2.10/sbt_0.13/0.7.0/jars/sbt-site.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered-jetty_2.10">
+			<revision name="0.6.8" status="release" pubdate="20130407085226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2837" time="0" location="/root/.ivy2/cache/net.databinder/unfiltered-jetty_2.10/ivy-0.6.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/databinder/unfiltered-jetty_2.10/0.6.8/unfiltered-jetty_2.10-0.6.8.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-site" conf="compile" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.7.0"/>
+				<artifacts>
+					<artifact name="unfiltered-jetty_2.10" type="jar" ext="jar" status="no" details="" size="24476" time="0" location="/root/.ivy2/cache/net.databinder/unfiltered-jetty_2.10/jars/unfiltered-jetty_2.10-0.6.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/databinder/unfiltered-jetty_2.10/0.6.8/unfiltered-jetty_2.10-0.6.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-webapp">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131225504" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="4">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7539" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-webapp/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/7.6.9.v20130131/jetty-webapp-7.6.9.v20130131.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-jetty_2.10" conf="default, compile, runtime, master" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="0.6.8"/>
+				<artifacts>
+					<artifact name="jetty-webapp" type="jar" ext="jar" status="no" details="" size="98869" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/7.6.9.v20130131/jetty-webapp-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131225047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="7">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7362" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/7.6.9.v20130131/jetty-servlet-7.6.9.v20130131.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="jar" ext="jar" status="no" details="" size="89811" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/7.6.9.v20130131/jetty-servlet-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-security">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131225023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="8">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7253" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/7.6.9.v20130131/jetty-security-7.6.9.v20130131.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-servlet" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="jetty-security" type="jar" ext="jar" status="no" details="" size="84223" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/7.6.9.v20130131/jetty-security-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131224947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="9">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7869" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/7.6.9.v20130131/jetty-server-7.6.9.v20130131.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-security" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="jetty-server" type="jar" ext="jar" status="no" details="" size="324835" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/7.6.9.v20130131/jetty-server-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131224603" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="12">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7309" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/7.6.9.v20130131/jetty-http-7.6.9.v20130131.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="no" details="" size="92138" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/7.6.9.v20130131/jetty-http-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131224545" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="13">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7166" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/7.6.9.v20130131/jetty-io-7.6.9.v20130131.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-http" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="no" details="" size="98158" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/7.6.9.v20130131/jetty-io-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131224614" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="11">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7258" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/7.6.9.v20130131/jetty-continuation-7.6.9.v20130131.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="jar" ext="jar" status="no" details="" size="20429" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/7.6.9.v20130131/jetty-continuation-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
+			<revision name="2.5.0.v201103041518" status="release" pubdate="20111208034816" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="10">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3375" time="0" location="/root/.ivy2/cache/org.eclipse.jetty.orbit/javax.servlet/ivy-2.5.0.v201103041518.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/2.5.0.v201103041518/javax.servlet-2.5.0.v201103041518.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="2.5.0.v201103041518" rev-constraint-default="2.5.0.v201103041518" rev-constraint-dynamic="2.5.0.v201103041518" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="javax.servlet" type="orbit" ext="jar" status="no" details="" size="119303" time="0" location="/root/.ivy2/cache/org.eclipse.jetty.orbit/javax.servlet/orbits/javax.servlet-2.5.0.v201103041518.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/2.5.0.v201103041518/javax.servlet-2.5.0.v201103041518.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-xml">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131225441" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="5">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7177" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-xml/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/7.6.9.v20130131/jetty-xml-7.6.9.v20130131.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="jetty-xml" type="jar" ext="jar" status="no" details="" size="37474" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-xml/jars/jetty-xml-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/7.6.9.v20130131/jetty-xml-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="7.6.9.v20130131" status="release" pubdate="20130131224448" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="6">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7370" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-7.6.9.v20130131.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/7.6.9.v20130131/jetty-util-7.6.9.v20130131.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-xml" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-io" conf="compile, runtime" rev="7.6.9.v20130131" rev-constraint-default="7.6.9.v20130131" rev-constraint-dynamic="7.6.9.v20130131" callerrev="7.6.9.v20130131"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="261804" time="0" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-7.6.9.v20130131.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/7.6.9.v20130131/jetty-util-7.6.9.v20130131.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder" name="unfiltered-util_2.10">
+			<revision name="0.6.8" status="release" pubdate="20130407085229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://unfiltered.databinder.net/" downloaded="false" searched="false" default="false" conf="compile, runtime, compile(*), runtime(*), master(compile), master" position="2">
+				<license name="MIT" url="http://www.opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2657" time="0" location="/root/.ivy2/cache/net.databinder/unfiltered-util_2.10/ivy-0.6.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/databinder/unfiltered-util_2.10/0.6.8/unfiltered-util_2.10-0.6.8.pom"/>
+				<caller organisation="net.databinder" name="unfiltered-jetty_2.10" conf="default, compile, runtime, master" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.6.8"/>
+				<artifacts>
+					<artifact name="unfiltered-util_2.10" type="jar" ext="jar" status="no" details="" size="30003" time="0" location="/root/.ivy2/cache/net.databinder/unfiltered-util_2.10/jars/unfiltered-util_2.10-0.6.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/databinder/unfiltered-util_2.10/0.6.8/unfiltered-util_2.10-0.6.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

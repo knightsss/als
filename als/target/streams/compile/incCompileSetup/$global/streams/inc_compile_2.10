@@ -1,0 +1,321 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+14 items
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$3.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$4.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$5.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$6.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$7.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/ScalaJdbcConnect.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$1.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$2.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$2.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$main$1$$anonfun$apply$1.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$main$1.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$.class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream.class
+binary dependencies:
+7 items
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /root/.ivy2/cache/org.apache.kafka/kafka_2.10/jars/kafka_2.10-0.8.2.1.jar
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /root/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /root/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.6.0.jar
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /root/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> /usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+14 items
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> AlsOnline
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> AlsOnline$$anonfun$3
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> AlsOnline$$anonfun$4
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> AlsOnline$$anonfun$5
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> AlsOnline$$anonfun$6
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> AlsOnline$$anonfun$7
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ScalaJdbcConnect
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkStream
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkStream$
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkStream$$anonfun$1
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkStream$$anonfun$2
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkStream$$anonfun$main$1
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkStream$$anonfun$main$1$$anonfun$apply$1
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkStream$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$2
+used names:
+192 items
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> !=
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> &&
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> *
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> +
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> -
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ->
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> <init>
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> <repeated>
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ==
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> >
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ?0
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> A
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ALS
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> AlsOnline
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Any
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> AnyRef
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Array
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ArrayOps
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ArrowAssoc
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> B
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Boolean
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Char
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Class
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ClassTag
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Connection
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> DStream
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Date
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Decoder
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Double
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> DoubleRDDFunctions
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> DriverManager
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Duration
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Float
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Function1
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> IndexedSeq
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> InputDStream
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Int
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> K
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> KD
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> KafkaUtils
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Long
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> MSE
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Map
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> MatchError
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> MatrixFactorizationModel
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Nothing
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Object
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Option
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Ordering
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> PairRDDFunctions
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Predef
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> RDD
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Rating
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ResultSet
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ScalaJdbcConnect
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Set
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkConf
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkContext
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> SparkStream
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Statement
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> StreamingContext
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> String
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> StringDecoder
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> StringOps
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> T
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> T1
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> T2
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Tuple2
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> U
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> Unit
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> V
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> VD
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> W
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> _$6
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> _1
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> _2
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> a
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> alpha
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> any2ArrowAssoc
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> apache
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> apply
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> augmentString
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> awaitTermination
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> brokers
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> checkpoint
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> close
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> collect
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> conf
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> conn
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> connection
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> connection_=
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> count
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> createDirectStream
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> createStatement
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> createStream
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> data
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> doubleRDDToDoubleRDDFunctions
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> driver
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> dstream
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> err
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> executeQuery
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> executeUpdate
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> forName
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> foreach
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> foreachRDD
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> get
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> getConnection
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> getString
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> getTime
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> insertDataMysql
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> isEmpty
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> item
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> java
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> join
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> kafka
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> kafkaParam
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> lambda
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> lang
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> lengthCompare
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> like_items_ratings
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> line
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> load
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> logFile
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> map
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> materializeClassTag
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> math
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> mean
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> mllib
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> model
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ne
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> new_model
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> next
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> now
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> numIterations
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> org
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> package
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> password
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> predict
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> predictions
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> println
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> product
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> r1
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> r2
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> rank
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> rat
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> rate
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ratesAndPreds
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> rating
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> ratings
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> rdd
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> rddToPairRDDFunctions
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> recommendProducts
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> recommendation
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> refArrayOps
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> resultSet
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> sameModel
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> save
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> sc
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> scala
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> scc
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> score
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> serializer
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> setAppName
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> setLogLevel
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> spark
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> sparkContext
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> split
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> sql
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> start
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> statement
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> stream
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> streaming
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> test_data
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> textFile
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> toArray
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> toDouble
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> toFloat
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> toInt
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> toString
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> topics
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> train
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> trainImplicit
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> unapplySeq
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> unary_!
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> url
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> user
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> user_196
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> username
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> usersProducts
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> util
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> while$1
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> x
+product stamps:
+14 items
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$3.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$4.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$5.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$6.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline$$anonfun$7.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/AlsOnline.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/ScalaJdbcConnect.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$1.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$2.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$2.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$main$1$$anonfun$apply$1.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$$anonfun$main$1.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream$.class -> lastModified(1493362679000)
+/home/shifeixiang/sbt/app/als/target/scala-2.10/classes/SparkStream.class -> lastModified(1493362679000)
+source stamps:
+1 items
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> hash(b20afdd6f8a242098f33fd7d0ad2fc897125dfbd)
+binary stamps:
+7 items
+/root/.ivy2/cache/org.apache.kafka/kafka_2.10/jars/kafka_2.10-0.8.2.1.jar -> lastModified(1424989934000)
+/root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> lastModified(1450755479000)
+/root/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar -> lastModified(1450755608000)
+/root/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.6.0.jar -> lastModified(1450755409000)
+/root/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar -> lastModified(1450755213000)
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar -> lastModified(1425002069000)
+/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar -> lastModified(1409687212000)
+class names:
+7 items
+/root/.ivy2/cache/org.apache.kafka/kafka_2.10/jars/kafka_2.10-0.8.2.1.jar -> kafka.serializer.StringDecoder
+/root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> org.apache.spark.rdd.RDD
+/root/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar -> org.apache.spark.mllib.recommendation.ALS$
+/root/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.6.0.jar -> org.apache.spark.streaming.kafka.KafkaUtils$
+/root/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar -> org.apache.spark.streaming.dstream.InputDStream
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar -> scala.math.Ordering
+/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwV8wm1QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAhc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZLvPNnQABm5vdGlmeXNxAH4ADG5iX490AAR3YWl0c3EAfgAM70uO9nQADSRhc0luc3RhbmNlT2ZzcQB+AAwnwC9sdAADdXJsc3EAfgAM9cJrMHQABmVxdWFsc3NxAH4ADMJ9Ls10AAh1c2VybmFtZXNxAH4ADBbSiMR0AApjbG9zZU15c3Fsc3EAfgAMVxGjMHQADGFzSW5zdGFuY2VPZnNxAH4ADCi3foR0AAxzeW5jaHJvbml6ZWRzcQB+AAzI5qswdAANJGlzSW5zdGFuY2VPZnNxAH4ADKJ2kpZ0AAlzdGF0ZW1lbnRzcQB+AAy1XVRodAAEbWFpbnNxAH4ADCD+JWh0AAlub3RpZnlBbGxzcQB+AAyT94fLdAAQU2NhbGFKZGJjQ29ubmVjdHNxAH4ADDxcfFV0AAxpc0luc3RhbmNlT2ZzcQB+AAzcusvbdAAGPGluaXQ+c3EAfgAM6aTg7XQABmRyaXZlcnNxAH4ADB2W0F50AA9pbnNlcnREYXRhTXlzcWxzcQB+AAz9bjSwdAACPT1zcQB+AAwg5qVjdAAFY2xvbmVzcQB+AAz+9XmXdAAPbG9hZERhdGFUb015c3Fsc3EAfgAMs9D6ZnQACHRvU3RyaW5nc3EAfgAMYo2rV3QAAiE9c3EAfgAMrf1AeXQACmNvbm5lY3Rpb25zcQB+AAyVfNGhdAAIZ2V0Q2xhc3NzcQB+AAxrK4BDdAALU3BhcmtTdHJlYW1zcQB+AAxcFwDpdAACbmVzcQB+AAxCFDp2dAACZXFzcQB+AAwoWKZTdAAJQWxzT25saW5lc3EAfgAMC1bLLXQAAiMjc3EAfgAMKo3Nz3QACGZpbmFsaXplc3EAfgAMeyufenQACGhhc2hDb2Rlc3EAfgAMUHvtQHQACHBhc3N3b3Jkc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AWXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBBdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBwc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFlMAAlpbmhlcml0ZWRxAH4AWUwAB3BhcmVudHNxAH4AWXhxAH4AdXNxAH4AcHVxAH4AVAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AWnEAfgBjdXEAfgBkAAAAAHNxAH4AZgBxAH4AJXVxAH4AaAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB0dAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AkHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AH14cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGt0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIRbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHRzcQB+AIN0AAVBcnJheXEAfgCJdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AIN0AAZTdHJpbmdzcQB+AIdzcQB+AIp1cQB+AI0AAAADc3EAfgCPdAAEamF2YXNxAH4Aj3QABGxhbmdxAH4AlHNxAH4AcHVxAH4AVAAAAABzcQB+AHB1cQB+AKgAAAACc3EAfgCDdAAGT2JqZWN0cQB+AKxzcQB+AIN0AANBbnlxAH4AiXNxAH4AVnEAfgBjdXEAfgBkAAAAAHNxAH4AZgBxAH4AKXVxAH4AaAAAAAB+cQB+AGp0AAhDbGFzc0RlZnVxAH4AbgAAAABzcQB+AHBxAH4AdnNxAH4AcHNxAH4AeHNxAH4AcHVxAH4AVAAAAABzcQB+AHB1cQB+AFQAAAAAc3EAfgBwdXEAfgCoAAAAAnNxAH4Ag3EAfgC4c3EAfgCHc3EAfgCKdXEAfgCNAAAAA3NxAH4Aj3EAfgCwc3EAfgCPcQB+ALJxAH4AlHNxAH4Ag3EAfgC6c3EAfgCHc3EAfgCKdXEAfgCNAAAAAnNxAH4Aj3EAfgCScQB+AJRzcQB+AFZxAH4AY3VxAH4AZAAAAABzcQB+AGYAcQB+AEd1cQB+AGgAAAAAcQB+AL91cQB+AG4AAAAAc3EAfgBwcQB+AHZzcQB+AHBzcQB+AHhzcQB+AHB1cQB+AFQAAAAAc3EAfgBwdXEAfgBUAAAAAHNxAH4AcHVxAH4AqAAAAAJzcQB+AINxAH4AuHNxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI9xAH4AsHNxAH4Aj3EAfgCycQB+AJRzcQB+AINxAH4AunNxAH4Ah3NxAH4AinVxAH4AjQAAAAJzcQB+AI9xAH4AknEAfgCUdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVuzWedqdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANy9ob21lL3NoaWZlaXhpYW5nL3NidC9hcHAvYWxzL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSyCv3W+KJCCY8z/X0K0vyJcSXfvQ==
+external apis:
+0 items
+source infos:
+1 items
+/home/shifeixiang/sbt/app/als/src/main/scala/SparkStream.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW7NZ52p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANy9ob21lL3NoaWZlaXhpYW5nL3NidC9hcHAvYWxzL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
